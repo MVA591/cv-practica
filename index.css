@@ -1,0 +1,102 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+    display: flex;
+}
+
+.columna-1 {
+    background-color: aliceblue;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgba(255, 255, 255, 0),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.datos-personales {
+    height: 500px;
+    width: 250px;
+    padding: 20px;
+}
+
+.datos-personales img {
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+.datos-personales h1 {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.datos-personales h2 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.datos-personales ul {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.columna-2 {
+    margin: 10px;
+}
+
+.info-general {
+    background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgba(255, 255, 255, 0),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.info-general p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.experiencia-y-formacion {
+    background-color: aliceblue;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgba(255, 255, 255, 0),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.experiencia-y-formacion h3 {
+    margin: 10px;
+}
+
+.experiencia-y-formacion ul {
+    margin: 25px;
+    font-size: 17px
+}
+
+.experiencia-y-formacion div {
+    margin-left: 10px;
+}
+
+.experiencia-y-formacion div a img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
